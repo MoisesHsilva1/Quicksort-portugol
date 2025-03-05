@@ -5,7 +5,8 @@ programa {
     capturarVal()
   }
 
-  funcao capturarVal() {
+  funcao capturarVal() 
+
     inteiro valores[3]
 
     escreva("Digite o primeiro valor: ")
@@ -23,6 +24,7 @@ programa {
   }
 
   funcao quickSort(inteiro vals[], inteiro esquerda, inteiro direita) {
+  
     se (esquerda < direita) {
       inteiro pivo = ordenar(vals, esquerda, direita)
 
@@ -32,6 +34,7 @@ programa {
   }
 
   funcao inteiro ordenar(inteiro vals[], inteiro esquerda, inteiro direita) {
+  
     inteiro pivo = vals[direita]
     inteiro i = esquerda - 1
 
@@ -47,6 +50,7 @@ programa {
   }
 
   funcao trocar(inteiro vals[], inteiro i, inteiro j) {
+  
     inteiro temp = vals[i]
     vals[i] = vals[j]
     vals[j] = temp
